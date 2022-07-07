@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 200vh;
+}
+
+.btn{
+    @apply tw-shadow-md tw-py-3 tw-px-6 tw-rounded-md tw-transition tw-duration-300;
+}
+
+.btn-orange{
+    @apply tw-bg-orange tw-text-white;
+}
+
+.btn-white{
+    @apply tw-bg-white;
+}
+
+.display-none{
+    @apply tw-hidden;
+}
+
+

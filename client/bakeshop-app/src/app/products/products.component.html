@@ -1,0 +1,14 @@
+
+<div class="cards-container">
+        <ng-container *ngFor="let cake of cakes">
+            <div class="card">
+                <img src="{{cake.imageUrl}}" alt="" class="card-img">
+                <div class="tw-m-2">
+                    <h5 class="card-title tw-mb-2">{{cake.productName}}</h5>
+                    <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{cake.productDescription}}</p>
+                    <p><strong>Price:</strong> P{{cake.productPrice}}</p>
+                </div>
+                <button class="btn-add-cart">Add to cart</button>
+            </div>
+        </ng-container>
+</div>

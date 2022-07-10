@@ -1,0 +1,26 @@
+<div class="modal-overlay">
+
+    <!-- Modal content -->
+    <div class="modal-card">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <div class="modal-header">
+        <img [src]="currentCake.imageUrl" alt="" class="modal-img">
+      </div>
+      <div class="modal-body">
+        <h1 class="cake-title">{{currentCake.productName}}</h1>
+        <p class="cake-text">{{currentCake.productDescription}}</p>
+        
+        <i class="fa-solid fa-plus"></i>
+        <input type="text" class="cake-quantity">
+        <i class="fa-solid fa-minus"></i>
+        <p>Subtotal:</p>
+        
+        <button class="btn-add-cart">Add to Cart</button>
+
+        
+      </div>
+      
+      
+    </div>
+    
+</div>

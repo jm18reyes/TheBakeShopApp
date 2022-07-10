@@ -14,17 +14,25 @@
                 <li class="tw-cursor-pointer">Contacts</li>
             </ul>
         </div>
+        <input type="text" name="" id="">
         
     </nav>
 </header>
 <section>
-    <div [ngStyle]="{'background-image': 'url(assets/cheese-cake.jpg)'}" class="back tw-flex tw-justify-center tw-items-center">
+    <!--
+    <div [ngStyle]="{'background-image': 'url(assets/pastry-coffee.jpg)'}" class="back2"> -->
+    <!--    
+    <div class="sect1">
+        <div>Hello</div>
+    </div>
+    -->
+    <app-cover-carousel [autoSlide]="true"></app-cover-carousel>
+    <div [ngStyle]="{'background-image': 'url(assets/pastry-coffee.jpg)'}" class="back tw-flex tw-justify-center tw-items-center">
 
         <app-products></app-products>
         
     </div>
-    <div [ngStyle]="{'background-image': 'url(assets/banana-cake.jpeg)'}" class="back2">
-        <div>Hello</div>
-    </div>
+    
+    
     
 </section>

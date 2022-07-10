@@ -20,6 +20,20 @@
 .back2{
     height: 100vh;
     background-size: cover;
+    background-image: 'assets/cheese-cake.jpg';
+}
+
+.sect1{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    background-image: url("../assets/banana-cake.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .mode{

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ShowProductModalService } from '../show-product-modal.service';
 import { IProduct } from './Iproduct';
 
 @Component({
@@ -8,6 +9,8 @@ import { IProduct } from './Iproduct';
 })
 export class ProductsComponent implements OnInit {
 
+  selectedProductIndex: number = 0;
+  selectedCake!: IProduct;
   cakes: IProduct[] = [
     {
       "id": "1",
@@ -52,9 +55,17 @@ export class ProductsComponent implements OnInit {
       "imageUrl": "assets/cheese-cake.jpg"
   }
   ];
-  constructor() { }
+  constructor(public generateModal: ShowProductModalService) { }
 
   ngOnInit(): void {
+  }
+
+  openModal(index: number): void{
+    this.selectedProductIndex = index;
+    this.selectedCake = this.cakes[this.selectedProductIndex];
+    
+    this.generateModal.showModal=true;
+    console.log('clicked');
   }
 
 }

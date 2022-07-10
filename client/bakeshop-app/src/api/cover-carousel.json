@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "imageName": "Strawberry Cake",
+        "imageUrl": "../assets/cake-strawberry-cover.jpg"
+    },
+    {
+        "id": "2",
+        "imageName": "Lemon Pie",
+        "imageUrl": "../assets/lemon-pie.jpg"
+    },
+    {
+        "id": "3",
+        "imageName": "Coffee Pastry",
+        "imageUrl": "../assets/pastry-coffee.jpg"
+    }
+]

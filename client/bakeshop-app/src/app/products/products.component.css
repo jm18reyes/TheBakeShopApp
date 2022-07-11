@@ -59,12 +59,13 @@
 }
 
 .btn-add-cart{
-    background-color: rgb(173, 117, 12);
+    background-color: rgb(65, 37, 2);
     position: relative;
     top: 16px;
     padding: 5px;
     border-radius: 0 0 12px 12px;
     color: rgb(65, 37, 2);
+    color: rgb(240, 239, 238);
     
     font-weight: bold;
 }

@@ -21,6 +21,7 @@ export class ProductModalComponent implements OnInit {
   closeModal(){
     this.generateModal.showModal = false;
   }
+  
   ngAfterViewInit(){
     console.log('iz true');
     if(this.generateModal.showModal == true){

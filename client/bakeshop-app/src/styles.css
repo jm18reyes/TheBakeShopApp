@@ -10,6 +10,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+}
+
+html{
+    --dark-brown: rgb(65, 37, 2);
+    --golden-ochre: rgb(173, 117, 12);
+    --bright-gold: rgb(211, 185, 40); 
 }
 
 .body{

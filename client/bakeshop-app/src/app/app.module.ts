@@ -7,6 +7,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductModalComponent } from './products/product-modal/product-modal.component';
 import { CoverCarouselComponent } from './cover-carousel/cover-carousel.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
     ProductModalComponent,
     CoverCarouselComponent,
     FooterComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

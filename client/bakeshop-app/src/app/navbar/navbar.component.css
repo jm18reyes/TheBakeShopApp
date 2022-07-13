@@ -35,6 +35,10 @@
     display: none;
 }
 
+.fa-xmark{
+    font-size: 1.7rem;
+    display: none;
+}
 
 .menu-list{
     display: flex;
@@ -49,7 +53,7 @@
 }
 
 .search-bar{
-    width: 300px;
+    width: 28vw;
     height: 2rem;
     border-radius: 12px;
     background-color: wheat;
@@ -87,18 +91,18 @@
 }
 
 
-@media screen and (max-width: 999px) {
-    .search-bar{
-        width: 90%;
-    }
 
+
+@media screen and (max-width: 899px) {
+    
+    
     nav{
         font-size: 0.85rem;
     }
 
     .nav-logo{
         height: 3rem;
-        margin-left: 1.5rem;
+        margin-left: 1.5rem; 
     }
 
     .access:last-child{
@@ -107,22 +111,67 @@
     
 }
 
-@media screen and (max-width: 820px) {
-    .search-bar{
-        width: 90%;
-    }
 
-    nav{
-        font-size: 0.85rem;
+
+@media screen and (max-width: 674px) {
+    .navbar-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+
+
+    .logo-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        order: 2;
     }
 
     .nav-logo{
-        height: 3rem;
-        margin-left: 1.5rem;
+        min-height: 3rem;
+        height: 5rem;
+    }
+    .menu-list{
+        display: none;
     }
 
-    .access:last-child{
-        margin-right: 1rem;
+    
+
+    .nav-logo{
+        height: 4rem;
+        transform: translateX(-20px);
+    }
+
+    .search-container{
+        order: 3;
+        margin: 20px 0 20px 0;
+    }
+
+    .search-bar{
+        width: 70vw;
+    }
+
+    .account-container{
+        order: 1;
+        margin: 15px 0 30px 0;
+        position: relative;
+        left: -30%;
+        display: none;
     }
     
+    .menu-list{
+        flex-direction: column;
+    }
+
+    .active-menu-btn{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px;
+    }
+
+    .active{
+        display: flex !important;
+    }; 
 }

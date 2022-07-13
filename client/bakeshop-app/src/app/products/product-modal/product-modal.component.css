@@ -52,12 +52,17 @@
     width: 50%;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to left, var(--dark-brown), black);
+    border-radius: 15px 0 0 15px;
+    box-shadow: 5px 0 40px rgb(70, 70, 70);
+    
   }
   .modal-img{
     
     object-fit: cover;
     height: 85%;
     width: 85%;
+    
     
   }
 
@@ -67,6 +72,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr, 1fr, 0.5fr, 0.25fr, 0.25fr;
     height: 100%;
+    margin-left: 20px;
+
     
   }
 
@@ -120,4 +127,23 @@
   .btn-add-cart:hover{
     transform: scale(1.025);
     transition: transform 0.2s linear;
+  }
+
+  @media screen and (max-width: 899px) {
+    .modal-card{
+      flex-direction: column;
+      height: 100%;
+      width: 95%;
+      align-items: center;
+      top: 0;
+    }
+    .modal-header{
+      width: 100%;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .modal-body{
+      justify-content: center;
+    }
+    
   }

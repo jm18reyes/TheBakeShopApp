@@ -3,20 +3,26 @@
 <nav class="navbar-container">
     <div class="logo-container">
         <img src="assets/logo.png" alt="" class="nav-logo">
-        <i class="fa-solid fa-bars"></i>
-        <ul class="menu-list">
+        <i class="fa-solid fa-bars" (click)="showMenu=!showMenu" 
+        [ngClass]="{'active-menu-btn': showMenu === false}"
+        ></i>
+        <i class="fa-solid fa-xmark" (click)="showMenu=!showMenu" 
+        [ngClass]="{'active-menu-btn': showMenu === true}"></i>
+        <ul class="menu-list " [ngClass]="{'active': showMenu === true}">
             <li class="menu-item nav-hover">Home</li>
             <li class="menu-item nav-hover">Stores</li>
             <li class="menu-item nav-hover">Cakes</li>
         </ul>
     </div>
-    <div class="search-container">
+
+    <div class="search-container ">
         <input type="text" name="" id="" class="search-bar">
         <i class="fa-solid fa-magnifying-glass nav-hover"></i>
     </div>
-    <div class="account-container">
+    
+   
+    <div class="account-container " [ngClass]="{'active': showMenu === true}">
         <i class="fa-solid fa-cart-shopping nav-hover"></i>
-        <a href="" class="access nav-hover"><span>Sign up</span></a>
         <a href="" class="access nav-hover"><span>Login</span></a>
     </div>
 </nav>

@@ -9,11 +9,13 @@
       <div class="modal-body">
         <h1 class="cake-title">{{currentCake.productName}}</h1>
         <p class="cake-text">{{currentCake.productDescription}}</p>
-        <p>Quantity</p>
-        <i class="fa-solid fa-plus"></i>
-        <input type="text" class="cake-quantity">
-        <i class="fa-solid fa-minus"></i>
-        <p>Subtotal:</p>
+        <p class="qty-label qty-portion">Quantity</p>
+        <i class="fa-solid fa-plus qty-portion" (click)="addQuantity()"></i>
+        <input type="text" value={{tempCakeQuantity}} 
+        class="cake-quantity qty-portion" (change)="typedQuantity(cakeQuantity.value)"
+         #cakeQuantity>
+        <i class="fa-solid fa-minus qty-portion" (click)="minusQuantity()"></i>
+        <p class="price">Subtotal: P{{tempCakeQuantity * currentCake.productPrice}}.00</p>
         
         <button class="btn-add-cart">Add to Cart</button>
 

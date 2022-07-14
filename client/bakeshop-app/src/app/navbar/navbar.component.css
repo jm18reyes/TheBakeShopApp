@@ -58,6 +58,7 @@
     border-radius: 12px;
     background-color: wheat;
     color:var(--dark-brown);
+    text-align: center;
 }
 
 .fa-magnifying-glass{
@@ -118,6 +119,8 @@
         justify-content: center;
         flex-direction: column;
     }
+
+    
     
 
 
@@ -173,5 +176,7 @@
 
     .active{
         display: flex !important;
-    }; 
+    }
+
+    
 }

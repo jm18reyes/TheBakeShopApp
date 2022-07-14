@@ -9,7 +9,11 @@ import { IProduct } from '../Iproduct';
 })
 export class ProductModalComponent implements OnInit {
 
+  tempCakeQuantity: number = 1;
+
   @ViewChild('modal') modalElement!: ElementRef;
+
+
 
   @Input() currentCake!: IProduct;
   constructor(public generateModal: ShowProductModalService) { }
@@ -27,6 +31,24 @@ export class ProductModalComponent implements OnInit {
     if(this.generateModal.showModal == true){
       console.log('iz true');
       
+    }
+  }
+
+  typedQuantity(input: any):void{
+    this.tempCakeQuantity = Number(input);
+  }
+
+  addQuantity():void{
+    this.tempCakeQuantity++;
+  }
+
+  minusQuantity():void{
+    if(this.tempCakeQuantity > 1){
+      console.log(this.tempCakeQuantity)
+      this.tempCakeQuantity--;
+    }
+    else{
+      this.tempCakeQuantity = 1;
     }
   }
   

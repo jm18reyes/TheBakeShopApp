@@ -1,0 +1,84 @@
+.back{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+
+.pageTitle{
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+    color: var(--bright-gold);
+    background-color: var(--golden-ochre);
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    @apply tw-flex tw-bg-slate-300;
+    flex-direction: column;
+    height: 19rem;
+    width: 15rem;
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgb(227, 227, 231);
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 15px 0 rgba(214, 165, 73, 0.4);
+    background-color: rgb(65, 37, 2);
+    color: white;
+}
+
+.card:hover .card-title{
+    color: rgb(211, 185, 40);
+}
+
+
+.card-img{
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    
+    border-radius: 12px 12px 0 0;
+}
+
+.card-img:hover{
+    transition: filter 0.3s ease-in;
+    
+}
+
+.card-img:hover + .view{
+    display: block;
+    opacity: 1;
+    
+}
+
+
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: rgb(173, 117, 12);
+    font-family: 'Raleway';
+    
+}
+
+

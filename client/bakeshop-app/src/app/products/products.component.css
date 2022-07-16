@@ -1,3 +1,12 @@
+.background{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    background-image: url('../../assets/pastry-coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .card{
     @apply tw-flex tw-bg-slate-300;
     flex-direction: column;

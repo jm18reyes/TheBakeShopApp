@@ -9,9 +9,9 @@
         <i class="fa-solid fa-xmark" (click)="showMenu=!showMenu" 
         [ngClass]="{'active-menu-btn': showMenu === true}"></i>
         <ul class="menu-list " [ngClass]="{'active': showMenu === true}">
-            <li class="menu-item nav-hover">Home</li>
-            <li class="menu-item nav-hover">Stores</li>
-            <li class="menu-item nav-hover">Cakes</li>
+            <a routerLink="/Home"><li class="menu-item nav-hover">Home</li></a>
+            <a routerLink="/Home"><li class="menu-item nav-hover">Stores</li></a>
+            <a routerLink="/Cakes"><li class="menu-item nav-hover">Cakes</li></a>
         </ul>
     </div>
 

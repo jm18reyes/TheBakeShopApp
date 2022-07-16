@@ -1,0 +1,79 @@
+[
+    {
+        "id": "1",
+        "productName": "Coffee Cake",
+        "productDescription": "A coffee-flavored cake is typically baked in a circular shape with two layers separated by coffee butter icing, which may also cover the top of the cake",
+        "productPrice": 721.00,
+        "imageUrl": "assets/coffee-cake.jpg"
+    },
+    {
+        "id": "2",
+        "productName": "Banana Cake",
+        "productDescription": "A traditional banana cake is made like a butter cake with the addition of mashed banana for flavour.",
+        "productPrice": 700.00,
+        "imageUrl": "assets/banana-cake.jpeg"
+    },
+    {
+        "id": "3",
+        "productName": "Funfetti Cake",
+        "productDescription": "Cake that has rainbow colored sprinkles baked into the batter.",
+        "productPrice": 714.00,
+        "imageUrl": "assets/funfetti-cake.jpg"
+    },
+    {
+        "id": "4",
+        "productName": "Lemon Cake",
+        "productDescription": "The 'lemony' flavour in a lemon cake is from the volatile oils which are present in the fruit's zest,(mainly nerol, limonene and citral).",
+        "productPrice": 600.00,
+        "imageUrl": "assets/lemon-cake.jpg"
+    },
+    {
+        "id": "5",
+        "productName": "Black Forest Cake",
+        "productDescription": "Black Forest gateau consists of several layers of chocolate sponge cake sandwiched with whipped cream and cherries.",
+        "productPrice": 805.00,
+        "imageUrl": "assets/black-forest-cake.jpg"
+    },
+    {
+        "id": "6",
+        "productName": "Cheesecake",
+        "productDescription": "The main, and thickest, layer consists of a mixture of a soft, fresh cheese, eggs, and sugar.",
+        "productPrice": 781.00,
+        "imageUrl": "assets/cheese-cake.jpg"
+    },
+    {
+        "id": "7",
+        "productName": "Red Velvet Cake",
+        "productDescription": "Red velvet cake is traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing.",
+        "productPrice": 721.00,
+        "imageUrl": "assets/red-velvet-cake.jpg"
+    },
+    {
+        "id": "8",
+        "productName": "Chocolate Cake",
+        "productDescription": "Chocolate cake or chocolate gâteau is a cake flavored with melted chocolate, cocoa powder, or both.",
+        "productPrice": 802.00,
+        "imageUrl": "assets/chocolate-cake.jpg"
+    },
+    {
+        "id": "9",
+        "productName": "Sans Rival Cake",
+        "productDescription": "Cake made of layers of buttercream, meringue and chopped cashews.",
+        "productPrice": 790.00,
+        "imageUrl": "assets/sansrival-cake.jpg"
+    },
+    {
+        "id": "10",
+        "productName": "Japanese Cotton Cake",
+        "productDescription": "Is a variety of cheesecake that is usually lighter in texture and less sweet than North American-style cheesecakes.",
+        "productPrice": 721.00,
+        "imageUrl": "assets/japanese-cotton-cake.jpg"
+    },
+    {
+        "id": "11",
+        "productName": "Boston Cream Cake",
+        "productDescription": "The cake sandwiches a custard or pastry cream that is smooth and velvety, with just a touch of vanilla.",
+        "productPrice": 721.00,
+        "imageUrl": "assets/boston-cream-cake.jpg"
+    }
+]

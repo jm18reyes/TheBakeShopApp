@@ -104,3 +104,31 @@
 .btn-next{
     right: 0;
 }
+
+.carousel-text-container{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transform: translateX(10%);
+}
+
+.carousel-text{
+    text-align: left;
+    color: white;
+    font-size: 5rem;
+    margin-left: 4rem;
+    font-family: 'Poppins';
+    font-style: italic;
+
+}
+
+@media screen and (max-width:500px) {
+    .carousel-text{
+        font-size: 3rem;
+    }
+    
+}

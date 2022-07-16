@@ -1,4 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { ProductsService } from '../products/products.service';
 import { CoverCarousel } from './cover-carousel';
 
 @Component({
@@ -13,6 +16,11 @@ export class CoverCarouselComponent implements OnInit, OnDestroy {
   selectedImage: number = 0;
   carouselIntervalID: any = 0;
 
+  carouselImages: CoverCarousel[] = [];
+  sub!: Subscription;
+  errorMessage: string = '';
+
+  /*
   carouselImages: CoverCarousel[] = [
     {
       "id": "1",
@@ -32,9 +40,16 @@ export class CoverCarouselComponent implements OnInit, OnDestroy {
 
   ];
 
-  constructor() { }
+  */
+  constructor(private productService: ProductsService) { }
 
   ngOnInit(): void {
+    this.sub = this.productService.getCarouselImages().subscribe({
+      next: carousel => {
+        this.carouselImages = carousel;
+      }
+    });
+
     if(this.autoSlide){
       this.autoSlideImages();
     }

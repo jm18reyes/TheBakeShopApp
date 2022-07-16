@@ -8,6 +8,11 @@ import { ProductModalComponent } from './products/product-modal/product-modal.co
 import { CoverCarouselComponent } from './cover-carousel/cover-carousel.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { OurServicesComponent } from './our-services/our-services.component';
+import { CareersComponent } from './careers/careers.component';
+import { ContactComponent } from './contact/contact.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,10 +22,15 @@ import { NavbarComponent } from './navbar/navbar.component';
     CoverCarouselComponent,
     FooterComponent,
     NavbarComponent,
+    WelcomeComponent,
+    OurServicesComponent,
+    CareersComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
     
   ],
   providers: [],

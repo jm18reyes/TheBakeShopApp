@@ -1,16 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { ShowProductModalService } from '../show-product-modal.service';
 import { IProduct } from './Iproduct';
+import { ProductsService } from './products.service';
 
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
-export class ProductsComponent implements OnInit {
+export class ProductsComponent implements OnInit, OnDestroy {
 
   selectedProductIndex: number = 0;
   selectedCake!: IProduct;
+  /*
   cakes: IProduct[] = [
     {
       "id": "1",
@@ -55,9 +58,24 @@ export class ProductsComponent implements OnInit {
       "imageUrl": "assets/cheese-cake.jpg"
   }
   ];
-  constructor(public generateModal: ShowProductModalService) { }
+  */
+
+  cakes: IProduct[] = [];
+  errorMessage: string = '';
+
+  sub!:Subscription;
+  constructor(public generateModal: ShowProductModalService, 
+      private productService: ProductsService) { }
 
   ngOnInit(): void {
+
+    this.sub = this.productService.getCakes().subscribe({
+      next: cakes => {
+        console.log(cakes);
+        this.cakes = cakes;
+      },
+      error: err => this.errorMessage = err
+    });
   }
 
   openModal(index: number): void{
@@ -66,6 +84,10 @@ export class ProductsComponent implements OnInit {
     
     this.generateModal.showModal=true;
     console.log('clicked');
+  }
+
+  ngOnDestroy(): void {
+    this.sub.unsubscribe();
   }
 
 }

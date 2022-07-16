@@ -1,0 +1,17 @@
+<div class="back tw-bg-amber-900">
+    <h3 class="pageTitle"> Our services</h3>
+    <div class="cards-container">
+        
+        <ng-container *ngFor="let options of storeServices; let i=index">
+            <div class="card">
+                <input type="image" src="{{options.serviceImgUrl}}" alt="" class="card-img">
+                <div class="tw-m-2 tw-flex tw-justify-center tw-items-center tw-h-20">
+                    <h5 class="card-title tw-mb-2">{{options.storeService}}</h5>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    
+    
+</div>
+

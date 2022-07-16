@@ -1,24 +1,11 @@
 <header>
-    <!--
-    <nav class="tw-flex tw-flex-row grad">
-        <div class="tw-ml-4">
-            <img src="assets/logo.png" alt="" class="nav-logo">
-        </div>
-        <div class="tw-justify-end tw-mr-8 ">
-            <ul class="tw-flex tw-flex-row tw-gap-3 tw-flex-wrap">
-                <li class="tw-cursor-pointer">Home</li>
-                <li class="tw-cursor-pointer">About</li>
-                <li class="tw-cursor-pointer">Foods</li>
-                <li class="tw-cursor-pointer">Contacts</li>
-            </ul>
-        </div>
-        <input type="text" name="" id="">
-        
-    </nav>
-    -->
     <app-navbar></app-navbar>
 </header>
 <section>
+
+    <router-outlet></router-outlet>
+    <!--
+
     
     <app-cover-carousel [autoSlide]="true"></app-cover-carousel>
     <div [ngStyle]="{'background-image': 'url(assets/pastry-coffee.jpg)'}" class="back tw-flex tw-justify-center tw-items-center">
@@ -27,7 +14,7 @@
         
     </div>
     
-    
+    -->
     
 </section>
 <footer>

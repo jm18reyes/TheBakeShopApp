@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ShowContactModalService } from '../contact/show-contact-modal.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public generateContactModal: ShowContactModalService) { }
 
   ngOnInit(): void {
+  }
+
+  openContactModal(): void{
+    
+    this.generateContactModal.showContactModal=true;
   }
 
 }

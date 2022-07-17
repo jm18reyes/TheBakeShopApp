@@ -3,7 +3,7 @@
     <div class="btn-container">
         <button class="footer-btn" routerLink="/Services">Our Services</button>
         <button class="footer-btn" routerLink="/Careers">Our Careers</button>
-        <button class="footer-btn">Contact Us</button>
+        <button class="footer-btn" (click)="openContactModal()">Contact Us</button>
     </div>
     <div class="social-media-container">
         <a href="https://facebook.com" target="_blank" class="social-media-btn">
@@ -17,3 +17,5 @@
         </a>
     </div>
 </div>
+
+<app-contact *ngIf="generateContactModal.showContactModal"></app-contact>

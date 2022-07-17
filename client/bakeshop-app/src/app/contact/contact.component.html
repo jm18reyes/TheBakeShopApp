@@ -1,1 +1,34 @@
-<p>contact works!</p>
+<div class="modal-overlay">
+
+    <!-- Modal content -->
+    <div class="modal-card" id="contact-modal">
+      <span class="close" (click)="closeContactModal()">&times;</span>
+      <div class="modal-header">
+        <h4>Contact us</h4>
+      </div>
+
+      <form *ngIf="showForm" (ngSubmit)="onSubmit()" #contactForm="ngForm">
+        <label for="email">
+            Email
+        </label>
+        <input type="text" id="email" name="email" [(ngModel)]="email" required email #emailInput="ngModel">
+        <div *ngIf="emailInput.invalid && emailInput.touched"><small>*Email is invalid!</small></div>
+
+        <label for="subject">
+            Subject
+        </label>
+        <input type="text" id="subject" name="subject" [(ngModel)]="subject" required #subjectInput="ngModel">
+        <div *ngIf="subjectInput.invalid && subjectInput.touched"><small>*Subject is required!</small></div>
+        <label for="message">
+            Message
+        </label>
+        <input type="text" id="message" name="message" [(ngModel)]="message" required #contactInput="ngModel">
+        <div *ngIf="contactInput.invalid && contactInput.touched"><small>*Message is required!</small></div>
+        <button type="submit" [disabled]="!contactForm.valid">Submit</button>
+      </form>
+
+      <p *ngIf="!showForm">Your message was submitted!</p>
+
+
+    </div>
+</div>

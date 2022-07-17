@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, NgForm } from '@angular/forms';
+import { ShowContactModalService } from './show-contact-modal.service';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild('contactForm') contactForm!: NgForm;
+
+  showForm: boolean= true;
+  email!: string;
+  subject!: string;
+  message!: string;
+  constructor(public generateModal: ShowContactModalService,
+    private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
+    
+  }
+
+  onSubmit(){
+    this.showForm = false
+
+  }
+
+  closeContactModal(){
+    this.generateModal.showContactModal = false;
   }
 
 }

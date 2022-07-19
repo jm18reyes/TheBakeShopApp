@@ -1,10 +1,10 @@
 <div class="modal-overlay">
 
     <!-- Modal content -->
-    <div class="modal-card">
+    <div class="modal-card" [ngClass]="{'happy':isAdded}">
       <span class="close" (click)="closeModal()">&times;</span>
       <div class="modal-header">
-        <img [src]="currentCake.imageUrl" alt="" class="modal-img">
+        <img [src]="currentCake.imageUrl" alt="" class="modal-img" >
       </div>
       <div class="modal-body">
         <h1 class="cake-title">{{currentCake.productName}}</h1>
@@ -17,12 +17,13 @@
         <i class="fa-solid fa-minus qty-portion" (click)="minusQuantity()"></i>
         <p class="price">Subtotal: P{{tempCakeQuantity * currentCake.productPrice}}.00</p>
         
-        <button class="btn-add-cart">Add to Cart</button>
+        <button class="btn-add-cart" (click)="addToCart()">Add to Cart</button>
 
         
       </div>
       
       
     </div>
+
     
 </div>

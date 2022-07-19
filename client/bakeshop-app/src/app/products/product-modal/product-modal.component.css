@@ -26,7 +26,13 @@
     position: absolute;
     border-radius: 15px;
   }
-  
+
+  .happy{
+    
+    border: 5px solid limegreen;
+  }
+
+ 
   /* The Close Button */
   .close {
     color: #aaaaaa;
@@ -183,3 +189,17 @@
     }
     
   }
+
+
+.addedNotif{
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  background-color: white;
+  color: var(--dark-brown);
+  font-size: 2rem;
+  border-radius: 12px;
+  box-shadow: 4px 5px 10px rgba(0,0,0,0.6);
+  width: 300px;
+}

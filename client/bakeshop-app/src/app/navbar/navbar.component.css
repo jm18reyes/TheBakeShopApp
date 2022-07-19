@@ -91,7 +91,14 @@
     cursor: pointer;
 }
 
-
+.cart-number{
+    font-size: 0.7rem;
+    z-index: 10;
+    transform: translateX(-35px);
+    background-color: var(--bright-gold);
+    padding: 0 5px 0 5px;
+    color: var(--dark-brown);
+}
 
 
 @media screen and (max-width: 899px) {
@@ -114,7 +121,7 @@
 
 
 
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 693px) {
     .navbar-container{
         justify-content: center;
         flex-direction: column;

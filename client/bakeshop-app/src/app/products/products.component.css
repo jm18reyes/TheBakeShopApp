@@ -1,7 +1,7 @@
 .background{
     display: flex;
     flex-direction: column;
-    background-color: brown;
+    background-color: var(--dark-brown);
     background-image: url('../../assets/pastry-coffee.jpg');
     background-repeat: no-repeat;
     background-size: cover;

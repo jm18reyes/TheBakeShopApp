@@ -14,6 +14,8 @@ import { CareersComponent } from './careers/careers.component';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CartComponent } from './cart/cart.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -27,13 +29,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     OurServicesComponent,
     CareersComponent,
     ContactComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ToastrModule.forRoot()
     
   ],
   providers: [],

@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="shopping-cart-header ">
+        <h2 class="header-font">SHOPPING CART</h2>
+
+    </div>
+
+    <div class="cart-card" *ngFor="let cartItem of cartItems; let i=index">
+        <img [src]="cartItem.imageUrl" alt="" class="cart-img">
+        <h5>{{cartItem.productName}}</h5>
+        <p>QTY: {{cartItem.productQuantity}}</p>
+        <p>{{cartItem.productBasePrice * cartItem.productQuantity | currency:'PHP':'symbol':'1.2-2'}}</p>
+        <i class="fa-solid fa-circle-minus"(click)="removeItem(i)"></i>
+    </div>
+
+    <div class="grand-total" *ngIf="grandTotal > 0">
+        <div></div>
+        <h4>Grand total: {{grandTotal | currency:'PHP':'symbol':'1.2-2' }}</h4>
+
+        <button>Checkout</button>
+    </div>
+
+    <div class="no-item-container" *ngIf="grandTotal == 0">
+        <h4>You have no items yet. Shop now!</h4>
+        <a routerLink="/cakes"><button>Go to cake menu</button></a>
+    </div>
+    
+</div>

@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CareersComponent } from './careers/careers.component';
+import { CartComponent } from './cart/cart.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { ProductsComponent } from './products/products.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
-  {path: 'Home',component:WelcomeComponent},
-  {path: 'Services',component:OurServicesComponent},
-  {path: 'Careers',component:CareersComponent},
-  {path: 'Cakes',component:ProductsComponent},
-  {path: '', redirectTo: 'Home', pathMatch: 'full'},
-  {path: '**', redirectTo: 'Home', pathMatch: 'full'}
+  {path: 'home',component:WelcomeComponent},
+  {path: 'services',component:OurServicesComponent},
+  {path: 'careers',component:CareersComponent},
+  {path: 'cakes',component:ProductsComponent},
+  {path: 'cart',component:CartComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: '**', redirectTo: 'home', pathMatch: 'full'}
 ];
 
 @NgModule({

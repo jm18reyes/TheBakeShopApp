@@ -2,7 +2,7 @@
     <h1 class="cakes-section">Cakes</h1>
     <div class="cards-container">
             
-            <ng-container *ngFor="let cake of cakes; let i=index">
+            <ng-container *ngFor="let cake of filteredCakes; let i=index">
                 <div class="card">
                     <input type="image" src="{{cake.imageUrl}}" alt="" class="card-img" (click)='openModal(i)'>
                     <div class="tw-m-2">

@@ -16,8 +16,8 @@
     </div>
 
     <div class="search-container ">
-        <input type="text" name="" id="" class="search-bar">
-        <i class="fa-solid fa-magnifying-glass nav-hover"></i>
+        <input type="text" name="" id="" class="search-bar" [(ngModel)]="searchedItem" (keyup.enter)="onSearch()">
+        <i class="fa-solid fa-magnifying-glass nav-hover" (click)="onSearch()" ></i>
     </div>
     
    

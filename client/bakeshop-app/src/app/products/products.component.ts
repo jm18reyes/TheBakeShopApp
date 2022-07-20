@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { ICart } from '../cart/cart';
 import { ShowContactModalService } from '../contact/show-contact-modal.service';
+import { SearchItemService } from '../search-item.service';
 import { ShowProductModalService } from '../show-product-modal.service';
 import { IProduct } from './Iproduct';
 import { ProductsService } from './products.service';
@@ -24,8 +25,14 @@ export class ProductsComponent implements OnInit, OnDestroy {
   cartItem = {} as ICart;
 
   sub!:Subscription;
+  searchSub!:Subscription;
+  filteredCakes: IProduct[] = [];
+
+
+
   constructor(public generateModal: ShowProductModalService, 
-      private productService: ProductsService) { 
+      private productService: ProductsService,
+      private searchItemService: SearchItemService) { 
         
       }
 
@@ -35,11 +42,31 @@ export class ProductsComponent implements OnInit, OnDestroy {
       next: cakes => {
         console.log(cakes);
         this.cakes = cakes;
+        this.filteredCakes = this.cakes;
       },
       error: err => this.errorMessage = err
     });
+
+    this.searchSub = this.searchItemService.getSearchedItem().subscribe({
+      next: userSearched => {
+        if(userSearched == ''){
+          this.filteredCakes = this.cakes;
+        }else{
+          
+          this.filteredCakes = this.performFilter(userSearched);
+        }
+
+      }
+    });
+
   }
 
+  performFilter(filterBy: string): IProduct[]{
+    filterBy = filterBy.toLocaleLowerCase();
+    return this.cakes.filter((product: IProduct) => 
+        product.productName.toLocaleLowerCase().includes(filterBy));
+    
+  }
   
 
   openModal(index: number): void{

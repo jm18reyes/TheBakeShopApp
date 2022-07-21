@@ -1,0 +1,11 @@
+
+
+<div class="container" >
+    <div class="header-banner">
+        <h2 class="header-font">Checkout</h2>
+        
+    </div>
+    
+    <app-shipping-info *ngIf="validAddress == false"></app-shipping-info>
+    <app-payment *ngIf="validAddress == true"></app-payment>
+</div>

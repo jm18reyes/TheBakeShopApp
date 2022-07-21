@@ -1,0 +1,29 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-brown);
+    background-image: url('../../assets/darkbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    gap: 15px;
+
+}
+
+.header-font{
+    font-size: 2.5rem;
+    color: rgb(252, 229, 98);
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.header-banner{
+    width: 100%;
+    
+    margin: 20px 0 20px 0;
+    background-color: rgb(173, 117, 12);
+
+}

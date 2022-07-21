@@ -12,22 +12,22 @@ export class OurServicesComponent implements OnInit {
     {
       id: "1",
       storeService: "Walk-in",
-      serviceImgUrl: "https://unsplash.it/200/200"
+      serviceImgUrl: "assets/walk-in.jpg"
     },
     {
       id: "2",
       storeService: "Pick-up",
-      serviceImgUrl: "https://unsplash.it/200/200"
+      serviceImgUrl: "assets/pickup.jpg"
     },
     {
       id: "3",
       storeService: "Delivery",
-      serviceImgUrl: "https://unsplash.it/200/200"
+      serviceImgUrl: "assets/delivery.jpg"
     },
     {
       id: "4",
       storeService: "Drive-Thru",
-      serviceImgUrl: "https://unsplash.it/200/200"
+      serviceImgUrl: "assets/drive-thru.jpg"
     },
   ];
 

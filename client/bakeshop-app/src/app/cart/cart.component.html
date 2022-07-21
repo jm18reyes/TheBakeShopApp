@@ -16,7 +16,7 @@
         <div></div>
         <h4>Grand total: {{grandTotal | currency:'PHP':'symbol':'1.2-2' }}</h4>
 
-        <button>Checkout</button>
+        <button routerLink="/checkout">Checkout</button>
     </div>
 
     <div class="no-item-container" *ngIf="grandTotal == 0">

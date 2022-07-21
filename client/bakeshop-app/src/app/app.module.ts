@@ -19,6 +19,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ShippingInfoComponent } from './checkout/shipping-info/shipping-info.component';
 import { PaymentComponent } from './checkout/payment/payment.component';
+import { StoresComponent } from './stores/stores.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { PaymentComponent } from './checkout/payment/payment.component';
     CheckoutComponent,
     ShippingInfoComponent,
     PaymentComponent,
+    StoresComponent,
   ],
   imports: [
     BrowserModule,

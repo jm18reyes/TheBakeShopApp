@@ -18,7 +18,7 @@ export class ProductsService {
 
   getCakes(): Observable<IProduct[]>{
     return this.http.get<IProduct[]>(this.cakeUrl).pipe( 
-        tap(data => console.log('All', JSON.stringify(data))),
+        tap(data => console.log('All')),
         catchError(this.handleError)
         
     );
@@ -27,7 +27,7 @@ export class ProductsService {
 
   getCarouselImages(): Observable<CoverCarousel[]>{
     return this.http.get<CoverCarousel[]>(this.carouselUrl).pipe( 
-        tap(data => console.log('All', JSON.stringify(data))),
+        tap(data => console.log('All')),
         catchError(this.handleError)
         
     );

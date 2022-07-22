@@ -129,6 +129,7 @@
 @media screen and (max-width:500px) {
     .carousel-text{
         font-size: 3rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
 }

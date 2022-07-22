@@ -51,6 +51,7 @@
 @media only screen and (max-width: 550px) {
     .btn-container{
         flex-direction: column;
+        gap: 1.3rem;
     }
 
     .footer-logo{

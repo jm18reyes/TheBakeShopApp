@@ -68,12 +68,5 @@
         "productDescription": "Is a variety of cheesecake that is usually lighter in texture and less sweet than North American-style cheesecakes.",
         "productPrice": 721.00,
         "imageUrl": "assets/japanese-cotton-cake.jpg"
-    },
-    {
-        "id": "11",
-        "productName": "Boston Cream Cake",
-        "productDescription": "The cake sandwiches a custard or pastry cream that is smooth and velvety, with just a touch of vanilla.",
-        "productPrice": 721.00,
-        "imageUrl": "assets/boston-cream-cake.jpg"
     }
 ]

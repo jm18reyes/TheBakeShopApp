@@ -70,3 +70,11 @@
     box-shadow: 4px 5px 10px rgb(34, 33, 33);
     transition: box-shadow 2s;
 }
+
+
+@media screen and (max-width:550) {
+    .store-container{
+        gap: 1.5rem;
+    }
+    
+}

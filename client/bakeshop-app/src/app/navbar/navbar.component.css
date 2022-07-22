@@ -171,6 +171,7 @@
     
     .menu-list{
         flex-direction: column;
+        gap: 1.3rem;
     }
 
     .active-menu-btn{

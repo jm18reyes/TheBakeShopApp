@@ -83,3 +83,10 @@ p{
     font-size: 3rem;
     color: var(--dark-brown);
 }
+
+@media screen and (max-width:620px) {
+    .checkout-card{
+        width: 90vw;
+    }
+    
+}

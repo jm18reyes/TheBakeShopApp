@@ -5,4 +5,14 @@
     box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.6);
     width: 50vw;
     margin: 30px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width:620px) {
+    #myPaypalButtons{
+        width: 90vw;
+    }
+    
 }

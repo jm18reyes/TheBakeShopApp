@@ -1,0 +1,1263 @@
+2022-09-05 00:16:25.541 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-05 00:16:25.757 +08:00 [DBG] Hosting starting
+2022-09-05 00:16:28.345 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FA499DAD9BAB3EDBF74B92D6F2720B3604A093B1)
+2022-09-05 00:16:28.715 +08:00 [INF] Now listening on: https://localhost:7083
+2022-09-05 00:16:28.717 +08:00 [INF] Now listening on: http://localhost:5083
+2022-09-05 00:16:28.718 +08:00 [DBG] Loaded hosting startup assembly theBakeShopApi
+2022-09-05 00:16:28.719 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-05 00:16:28.720 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-05 00:16:28.721 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-05 00:16:28.722 +08:00 [INF] Hosting environment: Development
+2022-09-05 00:16:28.723 +08:00 [INF] Content root path: C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\
+2022-09-05 00:16:28.724 +08:00 [DBG] Hosting started
+2022-09-05 00:16:28.893 +08:00 [DBG] Connection id "0HMKEI39BK7KM" accepted.
+2022-09-05 00:16:28.893 +08:00 [DBG] Connection id "0HMKEI39BK7KN" accepted.
+2022-09-05 00:16:28.904 +08:00 [DBG] Connection id "0HMKEI39BK7KM" started.
+2022-09-05 00:16:28.908 +08:00 [DBG] Connection id "0HMKEI39BK7KN" started.
+2022-09-05 00:16:39.360 +08:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-05 00:16:39.360 +08:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-05 00:16:39.566 +08:00 [DBG] Connection id "0HMKEI39BK7KM" stopped.
+2022-09-05 00:16:39.566 +08:00 [DBG] Connection id "0HMKEI39BK7KN" stopped.
+2022-09-05 00:16:40.354 +08:00 [DBG] Connection id "0HMKEI39BK7KN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:16:40.354 +08:00 [DBG] Connection id "0HMKEI39BK7KM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:16:42.085 +08:00 [DBG] Connection id "0HMKEI39BK7KO" accepted.
+2022-09-05 00:16:42.087 +08:00 [DBG] Connection id "0HMKEI39BK7KO" started.
+2022-09-05 00:16:43.519 +08:00 [DBG] Connection 0HMKEI39BK7KO established using the following protocol: "Tls12"
+2022-09-05 00:16:46.843 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-09-05 00:16:47.193 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-05 00:16:47.739 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-05 00:16:49.450 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-09-05 00:16:49.458 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-05 00:16:49.490 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 38.9796ms
+2022-09-05 00:16:49.490 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 2652.5400ms
+2022-09-05 00:16:49.566 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_vs/browserLink - -
+2022-09-05 00:16:49.811 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 244.3663ms
+2022-09-05 00:16:49.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-09-05 00:16:51.310 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1365.2811ms
+2022-09-05 00:19:50.500 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/api/products - -
+2022-09-05 00:19:50.583 +08:00 [DBG] The request path  does not match the path filter
+2022-09-05 00:19:50.627 +08:00 [DBG] 1 candidate(s) found for the request path '/api/products'
+2022-09-05 00:19:50.632 +08:00 [DBG] Endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)' with route pattern 'api/products' is valid for the request path '/api/products'
+2022-09-05 00:19:50.635 +08:00 [DBG] Request matched endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:19:50.649 +08:00 [INF] Executing endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:19:50.764 +08:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[theBakeShopApi.Models.ProductDto]]] GetProducts() on controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi).
+2022-09-05 00:19:50.768 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-05 00:19:50.769 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-05 00:19:50.771 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-05 00:19:50.773 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-05 00:19:50.775 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-05 00:19:50.779 +08:00 [DBG] Executing controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:19:52.188 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:19:52.602 +08:00 [DBG] Executed controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:19:53.629 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:19:53.729 +08:00 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .OrderBy(p => p.ProductPrice)'
+2022-09-05 00:19:54.528 +08:00 [INF] Executed action theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi) in 3744.7237ms
+2022-09-05 00:19:54.533 +08:00 [INF] Executed endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:19:54.552 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: SQLite does not support expressions of type 'decimal' in ORDER BY clauses. Convert the values to a supported type, or use LINQ to Objects to order the results on the client side.
+   at Microsoft.EntityFrameworkCore.Sqlite.Query.Internal.SqliteQueryableMethodTranslatingExpressionVisitor.TranslateOrderBy(ShapedQueryExpression source, LambdaExpression keySelector, Boolean ascending)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at theBakeShopApi.Services.ProductInfoRepository.GetProductsAsync() in C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\Services\ProductInfoRepository.cs:line 22
+   at theBakeShopApi.Controllers.ProductsController.GetProducts() in C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\Controllers\ProductsController.cs:line 31
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-05 00:19:55.148 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:19:55.166 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/api/products - - - 500 - text/plain;+charset=utf-8 4665.5099ms
+2022-09-05 00:21:08.834 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-05 00:21:08.976 +08:00 [DBG] Hosting starting
+2022-09-05 00:21:09.218 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FA499DAD9BAB3EDBF74B92D6F2720B3604A093B1)
+2022-09-05 00:21:09.318 +08:00 [INF] Now listening on: https://localhost:7083
+2022-09-05 00:21:09.322 +08:00 [INF] Now listening on: http://localhost:5083
+2022-09-05 00:21:09.324 +08:00 [DBG] Loaded hosting startup assembly theBakeShopApi
+2022-09-05 00:21:09.326 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-05 00:21:09.328 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-05 00:21:09.332 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-05 00:21:09.334 +08:00 [INF] Hosting environment: Development
+2022-09-05 00:21:09.337 +08:00 [INF] Content root path: C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\
+2022-09-05 00:21:09.341 +08:00 [DBG] Hosting started
+2022-09-05 00:21:09.561 +08:00 [DBG] Connection id "0HMKEI5T0VNFC" received FIN.
+2022-09-05 00:21:09.583 +08:00 [DBG] Connection id "0HMKEI5T0VNFC" accepted.
+2022-09-05 00:21:09.586 +08:00 [DBG] Connection id "0HMKEI5T0VNFC" started.
+2022-09-05 00:21:09.643 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-05 00:21:09.725 +08:00 [DBG] Connection id "0HMKEI5T0VNFC" stopped.
+2022-09-05 00:21:09.729 +08:00 [DBG] Connection id "0HMKEI5T0VNFC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:21:10.115 +08:00 [DBG] Connection id "0HMKEI5T0VNFD" accepted.
+2022-09-05 00:21:10.119 +08:00 [DBG] Connection id "0HMKEI5T0VNFD" started.
+2022-09-05 00:21:10.414 +08:00 [DBG] Connection 0HMKEI5T0VNFD established using the following protocol: "Tls12"
+2022-09-05 00:21:10.470 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-09-05 00:21:10.507 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-05 00:21:10.607 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-05 00:21:10.762 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_vs/browserLink - -
+2022-09-05 00:21:10.762 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-09-05 00:21:10.766 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-05 00:21:10.778 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 15.4681ms
+2022-09-05 00:21:10.778 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 314.2418ms
+2022-09-05 00:21:10.787 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.6220ms
+2022-09-05 00:21:10.891 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-09-05 00:21:11.015 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.6733ms
+2022-09-05 00:21:17.782 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/api/products - -
+2022-09-05 00:21:17.788 +08:00 [DBG] The request path  does not match the path filter
+2022-09-05 00:21:17.817 +08:00 [DBG] 1 candidate(s) found for the request path '/api/products'
+2022-09-05 00:21:17.824 +08:00 [DBG] Endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)' with route pattern 'api/products' is valid for the request path '/api/products'
+2022-09-05 00:21:17.827 +08:00 [DBG] Request matched endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:21:17.830 +08:00 [INF] Executing endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:21:17.846 +08:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[theBakeShopApi.Models.ProductDto]]] GetProducts() on controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi).
+2022-09-05 00:21:17.850 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-05 00:21:17.851 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-05 00:21:17.853 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-05 00:21:17.856 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-05 00:21:17.857 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-05 00:21:17.859 +08:00 [DBG] Executing controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:21:18.014 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:21:18.342 +08:00 [DBG] Executed controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:21:18.976 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:21:19.029 +08:00 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .OrderBy(p => p.ProductPrice)'
+2022-09-05 00:21:19.405 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.ImageUrl (string) Required, 1], [Property: Product.ProductDescription (string) MaxLength(200), 2], [Property: Product.ProductName (string) Required, 3], [Property: Product.ProductPrice (double) Required, 4] }
+        SELECT p.Id, p.ImageUrl, p.ProductDescription, p.ProductName, p.ProductPrice
+        FROM Products AS p
+        ORDER BY p.ProductPrice ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    theBakeShopApi.DBContext.ProductInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2022-09-05 00:21:19.471 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-05 00:21:21.479 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (2005ms).
+2022-09-05 00:21:21.493 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:21:21.561 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:21:21.744 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:21:21.776 +08:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:21:21.814 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.843 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.846 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.847 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.848 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.850 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.851 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.853 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.854 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.855 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:21:21.863 +08:00 [DBG] A data reader was disposed.
+2022-09-05 00:21:21.873 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:21:21.894 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:21:21.953 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-05 00:21:21.959 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-09-05 00:21:21.962 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-09-05 00:21:21.964 +08:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2022-09-05 00:21:21.970 +08:00 [INF] Executed action theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi) in 4106.5112ms
+2022-09-05 00:21:21.972 +08:00 [INF] Executed endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:21:21.977 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:21:21.983 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/api/products - - - 406 0 - 4200.8349ms
+2022-09-05 00:22:02.609 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:22:03.053 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:22:03.201 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.201 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.202 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.245 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.266 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.271 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.280 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:22:03.293 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:22:03.329 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:22:03.332 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:22:03.340 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.546 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:03.547 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:04.297 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:04.297 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:04.297 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:04.297 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:04.297 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:22:04.298 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:22:04.298 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:22:04.299 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:22:04.299 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:22:04.364 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:22:19.170 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:22:19.611 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:22:19.652 +08:00 [DBG] Migrating using database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.657 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.668 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.680 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-05 00:22:19.687 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2022-09-05 00:22:19.688 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.691 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.697 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:22:19.747 +08:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:22:19.749 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.752 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.753 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.753 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.753 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-05 00:22:19.753 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-05 00:22:19.753 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.753 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.754 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:22:19.754 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:22:19.754 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.754 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.767 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-05 00:22:19.767 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-05 00:22:19.767 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.767 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.768 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-05 00:22:19.797 +08:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-05 00:22:19.801 +08:00 [DBG] A data reader was disposed.
+2022-09-05 00:22:19.801 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.802 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.815 +08:00 [INF] Applying migration '20220904162204_ProductPriceDataTypeDouble'.
+2022-09-05 00:22:19.848 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.848 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.848 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.848 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.934 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.934 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.934 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.934 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.934 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.934 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:22:19.961 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:19.961 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:19.962 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-05 00:22:19.967 +08:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-05 00:22:19.968 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:19.968 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:19.968 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '267DD36E-C5AF-4C8D-B5AD-3AE28DAD37D9';
+SELECT changes();
+2022-09-05 00:22:19.982 +08:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '267DD36E-C5AF-4C8D-B5AD-3AE28DAD37D9';
+SELECT changes();
+2022-09-05 00:22:19.982 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:19.982 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:19.982 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'A6E4E208-F9BF-4088-B3EF-DA009ADC61F3';
+SELECT changes();
+2022-09-05 00:22:19.982 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'A6E4E208-F9BF-4088-B3EF-DA009ADC61F3';
+SELECT changes();
+2022-09-05 00:22:19.982 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:19.982 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:19.982 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'AF8853F2-87F2-43D2-878F-CBD6C3B24926';
+SELECT changes();
+2022-09-05 00:22:19.982 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'AF8853F2-87F2-43D2-878F-CBD6C3B24926';
+SELECT changes();
+2022-09-05 00:22:19.982 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:19.983 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:19.983 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'BAEA5F4F-F98C-496C-9ED9-34B7CF1F9190';
+SELECT changes();
+2022-09-05 00:22:21.594 +08:00 [INF] Executed DbCommand (1,612ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'BAEA5F4F-F98C-496C-9ED9-34B7CF1F9190';
+SELECT changes();
+2022-09-05 00:22:21.594 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:21.595 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:21.595 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'C26EE15D-0075-449D-8F2E-0626D5F2EE29';
+SELECT changes();
+2022-09-05 00:22:21.595 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'C26EE15D-0075-449D-8F2E-0626D5F2EE29';
+SELECT changes();
+2022-09-05 00:22:21.595 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:21.595 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:21.595 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'D29D214A-1F8F-4423-8193-A8F963F046A1';
+SELECT changes();
+2022-09-05 00:22:21.595 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'D29D214A-1F8F-4423-8193-A8F963F046A1';
+SELECT changes();
+2022-09-05 00:22:21.595 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:21.595 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:21.595 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'D59959F6-2D8B-4E70-8B00-C05A4F87BF6F';
+SELECT changes();
+2022-09-05 00:22:21.595 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'D59959F6-2D8B-4E70-8B00-C05A4F87BF6F';
+SELECT changes();
+2022-09-05 00:22:21.596 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:21.596 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:21.596 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'DCB5F2BC-F01E-4304-9931-12ABA8E24059';
+SELECT changes();
+2022-09-05 00:22:21.596 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'DCB5F2BC-F01E-4304-9931-12ABA8E24059';
+SELECT changes();
+2022-09-05 00:22:21.596 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:21.596 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:21.596 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'E30C22B2-B15D-4BC3-BC88-10F5C06F4873';
+SELECT changes();
+2022-09-05 00:22:21.596 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'E30C22B2-B15D-4BC3-BC88-10F5C06F4873';
+SELECT changes();
+2022-09-05 00:22:21.596 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:21.596 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:21.596 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'E3D4B3CD-F463-42A0-B952-E57794CFDC96';
+SELECT changes();
+2022-09-05 00:22:21.596 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'E3D4B3CD-F463-42A0-B952-E57794CFDC96';
+SELECT changes();
+2022-09-05 00:22:21.597 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:21.597 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:21.597 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('1F6E8B91-61A3-4EF9-B030-2E1E553C312C', 'assets/lemon-cake.jpg', 'The ''lemony'' flavour in a lemon cake is from the volatile oils which are present in the fruit''s zest,(mainly nerol, limonene and citral).', 'Lemon Cake', 600.0);
+2022-09-05 00:22:21.599 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('1F6E8B91-61A3-4EF9-B030-2E1E553C312C', 'assets/lemon-cake.jpg', 'The ''lemony'' flavour in a lemon cake is from the volatile oils which are present in the fruit''s zest,(mainly nerol, limonene and citral).', 'Lemon Cake', 600.0);
+2022-09-05 00:22:23.140 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:23.140 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:23.140 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('3476532E-4E1B-4F62-B498-B3EEEFEEAA3D', 'assets/cheese-cake.jpg', 'The main, and thickest, layer consists of a mixture of a soft, fresh cheese, eggs, and sugar.', 'Cheesecake', 781.0);
+2022-09-05 00:22:23.140 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('3476532E-4E1B-4F62-B498-B3EEEFEEAA3D', 'assets/cheese-cake.jpg', 'The main, and thickest, layer consists of a mixture of a soft, fresh cheese, eggs, and sugar.', 'Cheesecake', 781.0);
+2022-09-05 00:22:23.141 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:23.141 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:23.141 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('481905D0-BDA8-42AD-AB39-D9EB095107BA', 'assets/banana-cake.jpeg', 'A traditional banana cake is made like a butter cake with the addition of mashed banana for flavour.', 'Banana Cake', 700.0);
+2022-09-05 00:22:23.141 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('481905D0-BDA8-42AD-AB39-D9EB095107BA', 'assets/banana-cake.jpeg', 'A traditional banana cake is made like a butter cake with the addition of mashed banana for flavour.', 'Banana Cake', 700.0);
+2022-09-05 00:22:23.141 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:23.141 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:23.141 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('6537AB1B-3B09-4465-979C-BD3F1113E50A', 'assets/sansrival-cake.jpg', 'Cake made of layers of buttercream, meringue and chopped cashews.', 'Sans Rival Cake', 790.0);
+2022-09-05 00:22:23.141 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('6537AB1B-3B09-4465-979C-BD3F1113E50A', 'assets/sansrival-cake.jpg', 'Cake made of layers of buttercream, meringue and chopped cashews.', 'Sans Rival Cake', 790.0);
+2022-09-05 00:22:23.141 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:23.141 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:23.141 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('75EC86AE-985E-496C-86D0-DC57956AD9A7', 'assets/japanese-cotton-cake.jpg', 'Is a variety of cheesecake that is usually lighter in texture and less sweet than North American-style cheesecakes.', 'Japanese Cotton Cake', 721.0);
+2022-09-05 00:22:23.142 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('75EC86AE-985E-496C-86D0-DC57956AD9A7', 'assets/japanese-cotton-cake.jpg', 'Is a variety of cheesecake that is usually lighter in texture and less sweet than North American-style cheesecakes.', 'Japanese Cotton Cake', 721.0);
+2022-09-05 00:22:23.142 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:23.142 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:23.142 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('8785CB2D-58D9-41F2-8AD4-626703CEB880', 'assets/chocolate-cake.jpg', 'Chocolate cake or chocolate gâteau is a cake flavored with melted chocolate, cocoa powder, or both.', 'Chocolate Cake', 802.0);
+2022-09-05 00:22:25.495 +08:00 [INF] Executed DbCommand (2,354ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('8785CB2D-58D9-41F2-8AD4-626703CEB880', 'assets/chocolate-cake.jpg', 'Chocolate cake or chocolate gâteau is a cake flavored with melted chocolate, cocoa powder, or both.', 'Chocolate Cake', 802.0);
+2022-09-05 00:22:25.496 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:25.496 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:25.496 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('923D2C78-853A-4962-A3D8-828DC6E7E97D', 'assets/coffee-cake.jpg', 'A coffee-flavored cake is typically baked in a circular shape with two layers separated by coffee butter icing, which may also cover the top of the cake', 'Coffee Cake', 721.0);
+2022-09-05 00:22:25.496 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('923D2C78-853A-4962-A3D8-828DC6E7E97D', 'assets/coffee-cake.jpg', 'A coffee-flavored cake is typically baked in a circular shape with two layers separated by coffee butter icing, which may also cover the top of the cake', 'Coffee Cake', 721.0);
+2022-09-05 00:22:25.496 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:25.496 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:25.496 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('A62EEC3C-BFD3-4099-85C2-670928332AA6', 'assets/red-velvet-cake.jpg', 'Red velvet cake is traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing.', 'Red Velvet Cake', 721.0);
+2022-09-05 00:22:25.496 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('A62EEC3C-BFD3-4099-85C2-670928332AA6', 'assets/red-velvet-cake.jpg', 'Red velvet cake is traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing.', 'Red Velvet Cake', 721.0);
+2022-09-05 00:22:25.496 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:25.496 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:25.496 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('B1D77370-0409-4BD1-8F5E-97BE5A4468E1', 'assets/funfetti-cake.jpg', 'Cake that has rainbow colored sprinkles baked into the batter.', 'Funfetti Cake', 714.0);
+2022-09-05 00:22:25.496 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('B1D77370-0409-4BD1-8F5E-97BE5A4468E1', 'assets/funfetti-cake.jpg', 'Cake that has rainbow colored sprinkles baked into the batter.', 'Funfetti Cake', 714.0);
+2022-09-05 00:22:25.496 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:25.496 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:25.496 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('FDC7B0D9-3201-43EA-8112-56198A02CC01', 'assets/black-forest-cake.jpg', 'Black Forest gateau consists of several layers of chocolate sponge cake sandwiched with whipped cream and cherries.', 'Black Forest Cake', 805.0);
+2022-09-05 00:22:26.621 +08:00 [INF] Executed DbCommand (1,125ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('FDC7B0D9-3201-43EA-8112-56198A02CC01', 'assets/black-forest-cake.jpg', 'Black Forest gateau consists of several layers of chocolate sponge cake sandwiched with whipped cream and cherries.', 'Black Forest Cake', 805.0);
+2022-09-05 00:22:26.621 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:26.621 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:26.621 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Products" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Products" PRIMARY KEY,
+    "ImageUrl" TEXT NOT NULL,
+    "ProductDescription" TEXT NULL,
+    "ProductName" TEXT NOT NULL,
+    "ProductPrice" REAL NOT NULL
+);
+2022-09-05 00:22:26.624 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Products" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Products" PRIMARY KEY,
+    "ImageUrl" TEXT NOT NULL,
+    "ProductDescription" TEXT NULL,
+    "ProductName" TEXT NOT NULL,
+    "ProductPrice" REAL NOT NULL
+);
+2022-09-05 00:22:26.624 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:26.624 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:26.624 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+SELECT "Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice"
+FROM "Products";
+2022-09-05 00:22:26.624 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+SELECT "Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice"
+FROM "Products";
+2022-09-05 00:22:26.626 +08:00 [DBG] Committing transaction.
+2022-09-05 00:22:27.077 +08:00 [DBG] Committed transaction.
+2022-09-05 00:22:27.079 +08:00 [DBG] Disposing transaction.
+2022-09-05 00:22:27.079 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:27.079 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:27.079 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2022-09-05 00:22:27.079 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2022-09-05 00:22:27.080 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-05 00:22:27.080 +08:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-05 00:22:27.080 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:27.080 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:27.080 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Products";
+2022-09-05 00:22:27.080 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Products";
+2022-09-05 00:22:27.080 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:27.080 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:27.080 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Products" RENAME TO "Products";
+2022-09-05 00:22:27.081 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Products" RENAME TO "Products";
+2022-09-05 00:22:27.081 +08:00 [DBG] Committing transaction.
+2022-09-05 00:22:27.126 +08:00 [DBG] Committed transaction.
+2022-09-05 00:22:27.127 +08:00 [DBG] Disposing transaction.
+2022-09-05 00:22:27.127 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:27.127 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:27.127 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2022-09-05 00:22:27.127 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2022-09-05 00:22:27.127 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-05 00:22:27.127 +08:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-05 00:22:27.127 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:22:27.127 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:22:27.695 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220904162204_ProductPriceDataTypeDouble', '6.0.5');
+2022-09-05 00:22:27.695 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220904162204_ProductPriceDataTypeDouble', '6.0.5');
+2022-09-05 00:22:27.695 +08:00 [DBG] Committing transaction.
+2022-09-05 00:22:27.736 +08:00 [DBG] Committed transaction.
+2022-09-05 00:22:27.736 +08:00 [DBG] Disposing transaction.
+2022-09-05 00:22:27.736 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:22:27.736 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:22:27.737 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:22:55.765 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-05 00:22:55.857 +08:00 [DBG] Hosting starting
+2022-09-05 00:22:56.002 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FA499DAD9BAB3EDBF74B92D6F2720B3604A093B1)
+2022-09-05 00:22:56.048 +08:00 [INF] Now listening on: https://localhost:7083
+2022-09-05 00:22:56.050 +08:00 [INF] Now listening on: http://localhost:5083
+2022-09-05 00:22:56.051 +08:00 [DBG] Loaded hosting startup assembly theBakeShopApi
+2022-09-05 00:22:56.052 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-05 00:22:56.054 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-05 00:22:56.055 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-05 00:22:56.056 +08:00 [INF] Hosting environment: Development
+2022-09-05 00:22:56.058 +08:00 [INF] Content root path: C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\
+2022-09-05 00:22:56.058 +08:00 [DBG] Hosting started
+2022-09-05 00:22:56.323 +08:00 [DBG] Connection id "0HMKEI6SR50BI" received FIN.
+2022-09-05 00:22:56.326 +08:00 [DBG] Connection id "0HMKEI6SR50BH" received FIN.
+2022-09-05 00:22:56.328 +08:00 [DBG] Connection id "0HMKEI6SR50BH" accepted.
+2022-09-05 00:22:56.328 +08:00 [DBG] Connection id "0HMKEI6SR50BI" accepted.
+2022-09-05 00:22:56.332 +08:00 [DBG] Connection id "0HMKEI6SR50BI" started.
+2022-09-05 00:22:56.332 +08:00 [DBG] Connection id "0HMKEI6SR50BH" started.
+2022-09-05 00:22:56.356 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-05 00:22:56.356 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-05 00:22:56.401 +08:00 [DBG] Connection id "0HMKEI6SR50BH" stopped.
+2022-09-05 00:22:56.401 +08:00 [DBG] Connection id "0HMKEI6SR50BI" stopped.
+2022-09-05 00:22:56.405 +08:00 [DBG] Connection id "0HMKEI6SR50BH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:22:56.405 +08:00 [DBG] Connection id "0HMKEI6SR50BI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:22:56.882 +08:00 [DBG] Connection id "0HMKEI6SR50BJ" accepted.
+2022-09-05 00:22:56.887 +08:00 [DBG] Connection id "0HMKEI6SR50BJ" started.
+2022-09-05 00:22:57.022 +08:00 [DBG] Connection 0HMKEI6SR50BJ established using the following protocol: "Tls12"
+2022-09-05 00:22:57.152 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-09-05 00:22:57.186 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-05 00:22:57.305 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-05 00:22:57.465 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-09-05 00:22:57.465 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_vs/browserLink - -
+2022-09-05 00:22:57.470 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-05 00:22:57.485 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 20.0381ms
+2022-09-05 00:22:57.485 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 338.1121ms
+2022-09-05 00:22:57.520 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.4184ms
+2022-09-05 00:22:57.634 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-09-05 00:22:57.764 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.7584ms
+2022-09-05 00:23:02.823 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/api/products - -
+2022-09-05 00:23:02.838 +08:00 [DBG] The request path  does not match the path filter
+2022-09-05 00:23:02.862 +08:00 [DBG] 1 candidate(s) found for the request path '/api/products'
+2022-09-05 00:23:02.868 +08:00 [DBG] Endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)' with route pattern 'api/products' is valid for the request path '/api/products'
+2022-09-05 00:23:02.871 +08:00 [DBG] Request matched endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:23:02.874 +08:00 [INF] Executing endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:23:02.892 +08:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[theBakeShopApi.Models.ProductDto]]] GetProducts() on controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi).
+2022-09-05 00:23:02.900 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-05 00:23:02.901 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-05 00:23:02.903 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-05 00:23:02.905 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-05 00:23:02.906 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-05 00:23:02.909 +08:00 [DBG] Executing controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:23:03.085 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:23:03.285 +08:00 [DBG] Executed controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:23:03.947 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:23:04.005 +08:00 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .OrderBy(p => p.ProductPrice)'
+2022-09-05 00:23:04.414 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.ImageUrl (string) Required, 1], [Property: Product.ProductDescription (string) MaxLength(200), 2], [Property: Product.ProductName (string) Required, 3], [Property: Product.ProductPrice (double) Required, 4] }
+        SELECT p.Id, p.ImageUrl, p.ProductDescription, p.ProductName, p.ProductPrice
+        FROM Products AS p
+        ORDER BY p.ProductPrice ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    theBakeShopApi.DBContext.ProductInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2022-09-05 00:23:04.484 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-05 00:23:04.571 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (86ms).
+2022-09-05 00:23:04.587 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:23:04.615 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:23:04.632 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:23:04.672 +08:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:23:04.713 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.750 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.753 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.755 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.756 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.758 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.761 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.767 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.771 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.773 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:23:04.785 +08:00 [DBG] A data reader was disposed.
+2022-09-05 00:23:04.798 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:23:04.806 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:23:04.841 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-05 00:23:04.854 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-09-05 00:23:04.859 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-09-05 00:23:04.865 +08:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2022-09-05 00:23:04.873 +08:00 [INF] Executed action theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi) in 1958.582ms
+2022-09-05 00:23:04.876 +08:00 [INF] Executed endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:23:04.885 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:23:04.897 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/api/products - - - 406 0 - 2074.5710ms
+2022-09-05 00:32:46.977 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:32:47.469 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:32:47.585 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.586 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.614 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.614 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.614 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.615 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.615 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.615 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.615 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.615 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.615 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.615 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.636 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.640 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.641 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.650 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:32:47.662 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:32:47.698 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:32:47.701 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:32:47.710 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.892 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.893 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.893 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.893 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.893 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.893 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.893 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.893 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.894 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.894 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.894 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.894 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.894 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.894 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.895 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.895 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.895 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.895 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.895 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.896 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.896 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.896 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.896 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:47.896 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:48.670 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:48.670 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:48.670 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:48.670 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:48.670 +08:00 [DBG] An entity of type 'Product' tracked by 'ProductInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:32:48.670 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:32:48.671 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:32:48.671 +08:00 [DBG] DetectChanges starting for 'ProductInfoContext'.
+2022-09-05 00:32:48.672 +08:00 [DBG] DetectChanges completed for 'ProductInfoContext'.
+2022-09-05 00:32:48.748 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:32:56.987 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:32:57.440 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:32:57.479 +08:00 [DBG] Migrating using database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.485 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.496 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.510 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-05 00:32:57.520 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2022-09-05 00:32:57.522 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.524 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.531 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:32:57.547 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:32:57.549 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.551 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.552 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.553 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.553 +08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-05 00:32:57.553 +08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-05 00:32:57.553 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.553 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.553 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:32:57.553 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-09-05 00:32:57.553 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.553 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.567 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-05 00:32:57.568 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-05 00:32:57.568 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.568 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.568 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-05 00:32:57.568 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-09-05 00:32:57.570 +08:00 [DBG] A data reader was disposed.
+2022-09-05 00:32:57.570 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:57.570 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:57.581 +08:00 [INF] Applying migration '20220904163248_ProductPriceDataTypeInt'.
+2022-09-05 00:32:57.611 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.611 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:57.612 +08:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'Products' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2022-09-05 00:32:58.306 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:32:58.306 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:32:58.307 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-05 00:32:58.310 +08:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-05 00:32:58.311 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:58.311 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:58.311 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '1F6E8B91-61A3-4EF9-B030-2E1E553C312C';
+SELECT changes();
+2022-09-05 00:32:58.312 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '1F6E8B91-61A3-4EF9-B030-2E1E553C312C';
+SELECT changes();
+2022-09-05 00:32:58.312 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:58.312 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:58.312 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '3476532E-4E1B-4F62-B498-B3EEEFEEAA3D';
+SELECT changes();
+2022-09-05 00:32:58.312 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '3476532E-4E1B-4F62-B498-B3EEEFEEAA3D';
+SELECT changes();
+2022-09-05 00:32:58.312 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:58.312 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:58.312 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '481905D0-BDA8-42AD-AB39-D9EB095107BA';
+SELECT changes();
+2022-09-05 00:32:58.312 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '481905D0-BDA8-42AD-AB39-D9EB095107BA';
+SELECT changes();
+2022-09-05 00:32:58.312 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:58.312 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:58.312 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '6537AB1B-3B09-4465-979C-BD3F1113E50A';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '6537AB1B-3B09-4465-979C-BD3F1113E50A';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:58.313 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:58.313 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '75EC86AE-985E-496C-86D0-DC57956AD9A7';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '75EC86AE-985E-496C-86D0-DC57956AD9A7';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:58.313 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:58.313 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '8785CB2D-58D9-41F2-8AD4-626703CEB880';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '8785CB2D-58D9-41F2-8AD4-626703CEB880';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:58.313 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:58.313 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '923D2C78-853A-4962-A3D8-828DC6E7E97D';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = '923D2C78-853A-4962-A3D8-828DC6E7E97D';
+SELECT changes();
+2022-09-05 00:32:58.313 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:59.059 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (745ms).
+2022-09-05 00:32:59.059 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'A62EEC3C-BFD3-4099-85C2-670928332AA6';
+SELECT changes();
+2022-09-05 00:32:59.059 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'A62EEC3C-BFD3-4099-85C2-670928332AA6';
+SELECT changes();
+2022-09-05 00:32:59.059 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:59.059 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:59.059 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'B1D77370-0409-4BD1-8F5E-97BE5A4468E1';
+SELECT changes();
+2022-09-05 00:32:59.059 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'B1D77370-0409-4BD1-8F5E-97BE5A4468E1';
+SELECT changes();
+2022-09-05 00:32:59.059 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:59.059 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:59.059 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'FDC7B0D9-3201-43EA-8112-56198A02CC01';
+SELECT changes();
+2022-09-05 00:32:59.059 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = 'FDC7B0D9-3201-43EA-8112-56198A02CC01';
+SELECT changes();
+2022-09-05 00:32:59.059 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:59.059 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:59.059 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('00314322-6DF2-486E-8006-F0005BCE3DDD', 'assets/cheese-cake.jpg', 'The main, and thickest, layer consists of a mixture of a soft, fresh cheese, eggs, and sugar.', 'Cheesecake', 781);
+2022-09-05 00:32:59.059 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('00314322-6DF2-486E-8006-F0005BCE3DDD', 'assets/cheese-cake.jpg', 'The main, and thickest, layer consists of a mixture of a soft, fresh cheese, eggs, and sugar.', 'Cheesecake', 781);
+2022-09-05 00:32:59.059 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:59.059 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:59.059 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('144301FC-83AB-4337-AADC-4A398FBCF6E3', 'assets/red-velvet-cake.jpg', 'Red velvet cake is traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing.', 'Red Velvet Cake', 721);
+2022-09-05 00:32:59.060 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('144301FC-83AB-4337-AADC-4A398FBCF6E3', 'assets/red-velvet-cake.jpg', 'Red velvet cake is traditionally a red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing.', 'Red Velvet Cake', 721);
+2022-09-05 00:32:59.060 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:32:59.060 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:32:59.060 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('1995C796-5BA0-4AE0-B7BB-E7E008755B81', 'assets/japanese-cotton-cake.jpg', 'Is a variety of cheesecake that is usually lighter in texture and less sweet than North American-style cheesecakes.', 'Japanese Cotton Cake', 721);
+2022-09-05 00:32:59.060 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('1995C796-5BA0-4AE0-B7BB-E7E008755B81', 'assets/japanese-cotton-cake.jpg', 'Is a variety of cheesecake that is usually lighter in texture and less sweet than North American-style cheesecakes.', 'Japanese Cotton Cake', 721);
+2022-09-05 00:33:02.138 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:02.138 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:02.138 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('4835F50F-76EF-4ED3-B272-3AD48B3723C3', 'assets/black-forest-cake.jpg', 'Black Forest gateau consists of several layers of chocolate sponge cake sandwiched with whipped cream and cherries.', 'Black Forest Cake', 805);
+2022-09-05 00:33:02.138 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('4835F50F-76EF-4ED3-B272-3AD48B3723C3', 'assets/black-forest-cake.jpg', 'Black Forest gateau consists of several layers of chocolate sponge cake sandwiched with whipped cream and cherries.', 'Black Forest Cake', 805);
+2022-09-05 00:33:02.138 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:02.138 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:02.138 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('569CFA58-9A4C-4440-91FB-AF9D9B3835EA', 'assets/sansrival-cake.jpg', 'Cake made of layers of buttercream, meringue and chopped cashews.', 'Sans Rival Cake', 790);
+2022-09-05 00:33:02.138 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('569CFA58-9A4C-4440-91FB-AF9D9B3835EA', 'assets/sansrival-cake.jpg', 'Cake made of layers of buttercream, meringue and chopped cashews.', 'Sans Rival Cake', 790);
+2022-09-05 00:33:02.138 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:02.138 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:02.138 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('887C959B-5AD0-4A80-89E3-9697E0EA12DE', 'assets/chocolate-cake.jpg', 'Chocolate cake or chocolate gâteau is a cake flavored with melted chocolate, cocoa powder, or both.', 'Chocolate Cake', 802);
+2022-09-05 00:33:02.138 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('887C959B-5AD0-4A80-89E3-9697E0EA12DE', 'assets/chocolate-cake.jpg', 'Chocolate cake or chocolate gâteau is a cake flavored with melted chocolate, cocoa powder, or both.', 'Chocolate Cake', 802);
+2022-09-05 00:33:02.138 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:02.138 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:02.138 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('A1D62C8E-1BBD-4919-B56F-7D34247F06DE', 'assets/lemon-cake.jpg', 'The ''lemony'' flavour in a lemon cake is from the volatile oils which are present in the fruit''s zest,(mainly nerol, limonene and citral).', 'Lemon Cake', 600);
+2022-09-05 00:33:02.139 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('A1D62C8E-1BBD-4919-B56F-7D34247F06DE', 'assets/lemon-cake.jpg', 'The ''lemony'' flavour in a lemon cake is from the volatile oils which are present in the fruit''s zest,(mainly nerol, limonene and citral).', 'Lemon Cake', 600);
+2022-09-05 00:33:02.139 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:02.139 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:02.139 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('B8820605-0377-4694-A51B-4CCF9F827580', 'assets/funfetti-cake.jpg', 'Cake that has rainbow colored sprinkles baked into the batter.', 'Funfetti Cake', 714);
+2022-09-05 00:33:03.792 +08:00 [INF] Executed DbCommand (1,653ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('B8820605-0377-4694-A51B-4CCF9F827580', 'assets/funfetti-cake.jpg', 'Cake that has rainbow colored sprinkles baked into the batter.', 'Funfetti Cake', 714);
+2022-09-05 00:33:03.792 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:03.792 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:03.793 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('D2C43327-F739-49A2-8AF8-1A0766626719', 'assets/coffee-cake.jpg', 'A coffee-flavored cake is typically baked in a circular shape with two layers separated by coffee butter icing, which may also cover the top of the cake', 'Coffee Cake', 721);
+2022-09-05 00:33:03.793 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('D2C43327-F739-49A2-8AF8-1A0766626719', 'assets/coffee-cake.jpg', 'A coffee-flavored cake is typically baked in a circular shape with two layers separated by coffee butter icing, which may also cover the top of the cake', 'Coffee Cake', 721);
+2022-09-05 00:33:03.793 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:03.793 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:03.793 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('E5CB2D62-A344-4E0C-8B8D-56CD45917FAA', 'assets/banana-cake.jpeg', 'A traditional banana cake is made like a butter cake with the addition of mashed banana for flavour.', 'Banana Cake', 700);
+2022-09-05 00:33:03.793 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+VALUES ('E5CB2D62-A344-4E0C-8B8D-56CD45917FAA', 'assets/banana-cake.jpeg', 'A traditional banana cake is made like a butter cake with the addition of mashed banana for flavour.', 'Banana Cake', 700);
+2022-09-05 00:33:03.793 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:03.793 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:03.793 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Products" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Products" PRIMARY KEY,
+    "ImageUrl" TEXT NOT NULL,
+    "ProductDescription" TEXT NULL,
+    "ProductName" TEXT NOT NULL,
+    "ProductPrice" INTEGER NOT NULL
+);
+2022-09-05 00:33:03.793 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_Products" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Products" PRIMARY KEY,
+    "ImageUrl" TEXT NOT NULL,
+    "ProductDescription" TEXT NULL,
+    "ProductName" TEXT NOT NULL,
+    "ProductPrice" INTEGER NOT NULL
+);
+2022-09-05 00:33:03.794 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:03.794 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:03.794 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+SELECT "Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice"
+FROM "Products";
+2022-09-05 00:33:03.794 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_Products" ("Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice")
+SELECT "Id", "ImageUrl", "ProductDescription", "ProductName", "ProductPrice"
+FROM "Products";
+2022-09-05 00:33:03.796 +08:00 [DBG] Committing transaction.
+2022-09-05 00:33:05.072 +08:00 [DBG] Committed transaction.
+2022-09-05 00:33:05.074 +08:00 [DBG] Disposing transaction.
+2022-09-05 00:33:05.074 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:05.074 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:05.074 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2022-09-05 00:33:05.074 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2022-09-05 00:33:05.074 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-05 00:33:05.074 +08:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-05 00:33:05.074 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:05.074 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:05.074 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Products";
+2022-09-05 00:33:05.074 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "Products";
+2022-09-05 00:33:05.074 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:05.075 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:05.075 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Products" RENAME TO "Products";
+2022-09-05 00:33:05.075 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_Products" RENAME TO "Products";
+2022-09-05 00:33:05.075 +08:00 [DBG] Committing transaction.
+2022-09-05 00:33:05.110 +08:00 [DBG] Committed transaction.
+2022-09-05 00:33:05.110 +08:00 [DBG] Disposing transaction.
+2022-09-05 00:33:05.110 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:05.110 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:05.110 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2022-09-05 00:33:05.110 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2022-09-05 00:33:05.111 +08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-05 00:33:05.111 +08:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-09-05 00:33:05.111 +08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-05 00:33:05.111 +08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-05 00:33:05.111 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220904163248_ProductPriceDataTypeInt', '6.0.5');
+2022-09-05 00:33:05.111 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220904163248_ProductPriceDataTypeInt', '6.0.5');
+2022-09-05 00:33:05.111 +08:00 [DBG] Committing transaction.
+2022-09-05 00:33:05.149 +08:00 [DBG] Committed transaction.
+2022-09-05 00:33:05.149 +08:00 [DBG] Disposing transaction.
+2022-09-05 00:33:05.149 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:33:05.150 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:33:05.152 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:33:23.828 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-05 00:33:23.951 +08:00 [DBG] Hosting starting
+2022-09-05 00:33:24.193 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FA499DAD9BAB3EDBF74B92D6F2720B3604A093B1)
+2022-09-05 00:33:24.240 +08:00 [INF] Now listening on: https://localhost:7083
+2022-09-05 00:33:24.242 +08:00 [INF] Now listening on: http://localhost:5083
+2022-09-05 00:33:24.244 +08:00 [DBG] Loaded hosting startup assembly theBakeShopApi
+2022-09-05 00:33:24.246 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-05 00:33:24.247 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-05 00:33:24.249 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-05 00:33:24.258 +08:00 [INF] Hosting environment: Development
+2022-09-05 00:33:24.260 +08:00 [INF] Content root path: C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\
+2022-09-05 00:33:24.262 +08:00 [DBG] Hosting started
+2022-09-05 00:33:24.274 +08:00 [DBG] Connection id "0HMKEICNVNHCN" accepted.
+2022-09-05 00:33:24.274 +08:00 [DBG] Connection id "0HMKEICNVNHCO" accepted.
+2022-09-05 00:33:24.277 +08:00 [DBG] Connection id "0HMKEICNVNHCN" started.
+2022-09-05 00:33:24.278 +08:00 [DBG] Connection id "0HMKEICNVNHCO" started.
+2022-09-05 00:33:24.285 +08:00 [DBG] Connection id "0HMKEICNVNHCN" received FIN.
+2022-09-05 00:33:24.285 +08:00 [DBG] Connection id "0HMKEICNVNHCO" received FIN.
+2022-09-05 00:33:24.300 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-05 00:33:24.300 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-05 00:33:24.443 +08:00 [DBG] Connection id "0HMKEICNVNHCO" stopped.
+2022-09-05 00:33:24.443 +08:00 [DBG] Connection id "0HMKEICNVNHCN" stopped.
+2022-09-05 00:33:24.448 +08:00 [DBG] Connection id "0HMKEICNVNHCN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:33:24.448 +08:00 [DBG] Connection id "0HMKEICNVNHCO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:33:29.685 +08:00 [DBG] Connection id "0HMKEICNVNHCP" accepted.
+2022-09-05 00:33:29.690 +08:00 [DBG] Connection id "0HMKEICNVNHCP" started.
+2022-09-05 00:33:29.978 +08:00 [DBG] Connection 0HMKEICNVNHCP established using the following protocol: "Tls12"
+2022-09-05 00:33:30.895 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/index.html - -
+2022-09-05 00:33:31.357 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-05 00:33:31.560 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-05 00:33:32.085 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-05 00:33:32.093 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/index.html - - - 200 - text/html;charset=utf-8 1202.0300ms
+2022-09-05 00:33:32.411 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - -
+2022-09-05 00:33:32.419 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 8.1000ms
+2022-09-05 00:33:32.459 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/_vs/browserLink - -
+2022-09-05 00:33:32.483 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.2033ms
+2022-09-05 00:33:32.874 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - -
+2022-09-05 00:33:32.987 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.6763ms
+2022-09-05 00:33:37.344 +08:00 [DBG] Connection id "0HMKEICNVNHCP" received FIN.
+2022-09-05 00:33:46.474 +08:00 [DBG] Connection id "0HMKEICNVNHCP" is closed. The last processed stream ID was 7.
+2022-09-05 00:33:47.330 +08:00 [DBG] Connection id "0HMKEICNVNHCP" sending FIN because: "The client closed the connection."
+2022-09-05 00:33:47.334 +08:00 [DBG] Connection id "0HMKEICNVNHCP" stopped.
+2022-09-05 00:34:11.205 +08:00 [DBG] Connection id "0HMKEICNVNHCQ" accepted.
+2022-09-05 00:34:11.215 +08:00 [DBG] Connection id "0HMKEICNVNHCQ" received FIN.
+2022-09-05 00:34:11.223 +08:00 [DBG] Connection id "0HMKEICNVNHCQ" started.
+2022-09-05 00:34:11.228 +08:00 [DBG] Connection id "0HMKEICNVNHCR" accepted.
+2022-09-05 00:34:11.238 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-05 00:34:11.240 +08:00 [DBG] Connection id "0HMKEICNVNHCR" started.
+2022-09-05 00:34:11.251 +08:00 [DBG] Connection id "0HMKEICNVNHCQ" stopped.
+2022-09-05 00:34:11.257 +08:00 [DBG] Connection id "0HMKEICNVNHCQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-05 00:34:11.276 +08:00 [DBG] Connection 0HMKEICNVNHCR established using the following protocol: "Tls12"
+2022-09-05 00:34:11.321 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7083/api/products - -
+2022-09-05 00:34:11.325 +08:00 [DBG] The request path  does not match the path filter
+2022-09-05 00:34:11.346 +08:00 [DBG] 1 candidate(s) found for the request path '/api/products'
+2022-09-05 00:34:11.353 +08:00 [DBG] Endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)' with route pattern 'api/products' is valid for the request path '/api/products'
+2022-09-05 00:34:11.357 +08:00 [DBG] Request matched endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:34:11.360 +08:00 [INF] Executing endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:34:11.378 +08:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[theBakeShopApi.Models.ProductDto]]] GetProducts() on controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi).
+2022-09-05 00:34:11.387 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-05 00:34:11.389 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-05 00:34:11.391 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-05 00:34:11.395 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-05 00:34:11.396 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-05 00:34:11.400 +08:00 [DBG] Executing controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:34:11.649 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-05 00:34:11.948 +08:00 [DBG] Executed controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:34:12.684 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:34:12.776 +08:00 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .OrderBy(p => p.ProductPrice)'
+2022-09-05 00:34:13.174 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.ImageUrl (string) Required, 1], [Property: Product.ProductDescription (string) MaxLength(200), 2], [Property: Product.ProductName (string) Required, 3], [Property: Product.ProductPrice (int) Required, 4] }
+        SELECT p.Id, p.ImageUrl, p.ProductDescription, p.ProductName, p.ProductPrice
+        FROM Products AS p
+        ORDER BY p.ProductPrice ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    theBakeShopApi.DBContext.ProductInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2022-09-05 00:34:13.235 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-05 00:34:13.395 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (160ms).
+2022-09-05 00:34:13.412 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:34:13.440 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:34:13.455 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:34:13.485 +08:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:34:13.516 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.549 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.552 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.554 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.555 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.557 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.558 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.564 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.569 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.572 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:13.587 +08:00 [DBG] A data reader was disposed.
+2022-09-05 00:34:13.603 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:34:13.612 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:34:13.648 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-05 00:34:13.654 +08:00 [DBG] No information found on request to perform content negotiation.
+2022-09-05 00:34:13.655 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-05 00:34:13.656 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-05 00:34:13.658 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-05 00:34:13.659 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[theBakeShopApi.Models.ProductDto, theBakeShopApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-05 00:34:14.595 +08:00 [INF] Executed action theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi) in 3178.3797ms
+2022-09-05 00:34:14.600 +08:00 [INF] Executed endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:34:14.601 +08:00 [DBG] Connection id "0HMKEICNVNHCR" completed keep alive response.
+2022-09-05 00:34:14.607 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:34:14.612 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7083/api/products - - - 200 2650 application/json;+charset=utf-8 3290.8876ms
+2022-09-05 00:34:34.084 +08:00 [DBG] Connection id "0HMKEICNVNHCS" accepted.
+2022-09-05 00:34:34.087 +08:00 [DBG] Connection id "0HMKEICNVNHCS" started.
+2022-09-05 00:34:34.090 +08:00 [DBG] Connection 0HMKEICNVNHCS established using the following protocol: "Tls12"
+2022-09-05 00:34:34.095 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7083/api/products - -
+2022-09-05 00:34:34.098 +08:00 [DBG] The request path  does not match the path filter
+2022-09-05 00:34:34.099 +08:00 [DBG] 1 candidate(s) found for the request path '/api/products'
+2022-09-05 00:34:34.102 +08:00 [DBG] Endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)' with route pattern 'api/products' is valid for the request path '/api/products'
+2022-09-05 00:34:34.104 +08:00 [DBG] Request matched endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:34:34.105 +08:00 [INF] Executing endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:34:34.106 +08:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[theBakeShopApi.Models.ProductDto]]] GetProducts() on controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi).
+2022-09-05 00:34:34.113 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-05 00:34:34.117 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-05 00:34:34.119 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-05 00:34:34.121 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-05 00:34:34.122 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-05 00:34:34.124 +08:00 [DBG] Executing controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:34:34.129 +08:00 [DBG] Executed controller factory for controller theBakeShopApi.Controllers.ProductsController (theBakeShopApi)
+2022-09-05 00:34:34.139 +08:00 [INF] Entity Framework Core 6.0.5 initialized 'ProductInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.5' with options: None
+2022-09-05 00:34:34.152 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-05 00:34:34.154 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-09-05 00:34:34.157 +08:00 [DBG] Opening connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:34:34.162 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:34:34.164 +08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:34:34.167 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."ImageUrl", "p"."ProductDescription", "p"."ProductName", "p"."ProductPrice"
+FROM "Products" AS "p"
+ORDER BY "p"."ProductPrice"
+2022-09-05 00:34:34.169 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.171 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.177 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.181 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.184 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.186 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.190 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.197 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.199 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.201 +08:00 [DBG] Context 'ProductInfoContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-05 00:34:34.204 +08:00 [DBG] A data reader was disposed.
+2022-09-05 00:34:34.207 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\Acer\Downloads\Web Development Applications\TheBakeShopApi\theBakeShopApi\theBakeShopApi\ProductInfo.db'.
+2022-09-05 00:34:34.211 +08:00 [DBG] Closed connection to database 'main' on server 'ProductInfo.db'.
+2022-09-05 00:34:34.213 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-05 00:34:34.218 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-09-05 00:34:34.221 +08:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-09-05 00:34:34.222 +08:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2022-09-05 00:34:34.224 +08:00 [INF] Executed action theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi) in 100.1343ms
+2022-09-05 00:34:34.227 +08:00 [INF] Executed endpoint 'theBakeShopApi.Controllers.ProductsController.GetProducts (theBakeShopApi)'
+2022-09-05 00:34:34.228 +08:00 [DBG] 'ProductInfoContext' disposed.
+2022-09-05 00:34:34.230 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7083/api/products - - - 406 0 - 134.5940ms
+2022-09-05 00:34:42.664 +08:00 [DBG] Connection id "0HMKEICNVNHCS" received FIN.
+2022-09-05 00:34:42.666 +08:00 [DBG] Connection id "0HMKEICNVNHCS" is closed. The last processed stream ID was 1.
+2022-09-05 00:34:42.669 +08:00 [DBG] Connection id "0HMKEICNVNHCS" sending FIN because: "The client closed the connection."
+2022-09-05 00:34:42.683 +08:00 [DBG] Connection id "0HMKEICNVNHCS" stopped.

@@ -13,6 +13,7 @@ export class SearchItemService {
   }
 
   getSearchedItem(){
+    
     return this.searchedItemObservable.asObservable();
 
   }
